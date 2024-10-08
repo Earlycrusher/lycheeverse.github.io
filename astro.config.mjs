@@ -28,11 +28,11 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Introduction", link: "/introduction" },
-            { label: "Installation", link: "/installation/" },
-            { label: "GitHub Action", link: "/guides/github-action" },
-            { label: "Docker", link: "/guides/docker" },
-            { label: "Library Usage", link: "/usage/library" },
-            { label: "Comparison", link: "/comparison/" },
+            { label: "Installation", link: "/installation" },
+            { label: "GitHub Action", link: "/github-action" },
+            { label: "Docker", link: "/docker" },
+            { label: "Library Usage", link: "/library" },
+            { label: "Comparison", link: "/comparison" },
           ],
         },
         {
@@ -40,11 +40,13 @@ export default defineConfig({
           items: [
             { label: "Command Line Options", link: "/usage/cli" },
             { label: "Configuration File", link: "/usage/config" },
+            { label: "Output Modes", link: "/usage/output" },
           ],
         },
         {
           label: "Recipes",
           items: [
+            { label: "Anchor Links", link: "/recipes/anchors" },
             { label: "Caching", link: "/recipes/caching" },
             { label: "Excluding Links", link: "/recipes/excluding-links" },
             { label: "Excluding Paths", link: "/recipes/excluding-paths" },
